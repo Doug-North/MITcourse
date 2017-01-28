@@ -8,9 +8,9 @@ rules = \
 
 print("Please think of a number between 0 and 100! ")
 print("Is your secret number {}?".format(x))
-ans = input(rules)
+ans = str(input(rules))
 
-while  ans != 'c':
+while ans != 'c':
     if ans == 'h':
         high = x
         x = (x+low)//2
